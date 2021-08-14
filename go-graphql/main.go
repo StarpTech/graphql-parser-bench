@@ -11,8 +11,8 @@ import (
 )
 
 func main() {
-	start := time.Now()
 	content, _ := ioutil.ReadFile("./../schema.graphql")
+	start := time.Now()
 	_, err := parser.Parse(parser.ParseParams{
 		Source: &source.Source{
 			Body: content,

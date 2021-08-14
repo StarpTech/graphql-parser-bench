@@ -10,8 +10,8 @@ import (
 )
 
 func main() {
-	start := time.Now()
 	content, _ := ioutil.ReadFile("./../schema.graphql")
+	start := time.Now()
 	_, defReport := astparser.ParseGraphqlDocumentBytes(content)
 	if defReport.HasErrors() {
 		log.Fatal(defReport.Error())

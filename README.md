@@ -17,6 +17,7 @@ Parse the [gitlab schema](./schema.graphql). The schema has a size of around `67
 ```
 async-graphql-parser: 12.7027ms
 graphql-parser: 7.4608ms
+go-graphql: Error ❌
 graphql-go-tools: 5.7179ms
 graphqljs (cold): 111.5407ms
 graphqljs (warmed): 47.7197ms

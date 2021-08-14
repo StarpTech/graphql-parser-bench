@@ -14,13 +14,14 @@ Parse the [gitlab schema](./schema.graphql). The schema has a size of around `67
 
 ## Intermediate result
 
-```
-async-graphql-parser: 12.7027ms
-graphql-parser: 7.4608ms
-go-graphql: Error ❌
-graphql-go-tools: 5.7179ms
-graphqljs (cold): 111.5407ms
-graphqljs (warmed): 47.7197ms
-```
+- ✅ async-graphql-parser: 12.7027ms
+- ✅ graphql-parser: 7.4608ms
+- ❌ go-graphql: [Error](https://github.com/graphql-go/graphql/issues/611)
+- ✅ graphql-go-tools: 5.7179ms
+- ✅ graphqljs (cold): 111.5407ms
+- ✅ graphqljs (warmed): 47.7197ms
 
-**Winner**: In terms of speed `graphql-go-tools` wins! Compared to different aspect like accessibility and maintainability `async-graphql-parser` is the clear winner. It uses a PEG grammar as input.
+
+**Winner**: In terms of speed `graphql-go-tools` wins!
+
+Compared to different aspect like accessibility and maintainability `async-graphql-parser` is the clear winner. It uses a PEG grammar as input.

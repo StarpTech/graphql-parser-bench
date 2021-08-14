@@ -23,4 +23,4 @@ Parse the [gitlab schema](./schema.graphql). The schema has a size of around `67
 
 **🏆 Winner**: In terms of speed `graphql-go-tools` wins!
 
-Compared to different aspect like accessibility and maintainability `async-graphql-parser` is the clear winner. It uses a PEG grammar as input.
+Compared to different aspect like accessibility and maintainability `async-graphql-parser` is the overall winner. It uses a PEG grammar as input.

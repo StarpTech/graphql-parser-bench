@@ -23,4 +23,4 @@ graphqljs (cold): 111.5407ms
 graphqljs (warmed): 47.7197ms
 ```
 
-**Winner**: In terms of speed `graphql-go-tools` wins! Compared to different aspect like accessibility and maintainibility `async-graphql-parser` is the clear winner. It uses a PEG grammar as input.
+**Winner**: In terms of speed `graphql-go-tools` wins! Compared to different aspect like accessibility and maintainability `async-graphql-parser` is the clear winner. It uses a PEG grammar as input.

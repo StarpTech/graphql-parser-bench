@@ -1,4 +1,4 @@
-module go-graphql-go-tools
+module graphql-go-tools
 
 go 1.16
 

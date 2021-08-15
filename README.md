@@ -30,7 +30,7 @@ Compared to different aspect like accessibility and maintainability `async-graph
 
 ### Parsing a query
 
-Parse the [kitchen-sink document](./kitchen-sink.graphql). The document has a size of around `1KB` but a wide usage of the specification.
+Parse the [kitchen-sink document](./kitchen-sink.graphql). The document has a size of around `1KB` but with a wide usage of the specification.
 
 ```sh
 ./bench.sh ./../kitchen-sink.graphql query

@@ -18,6 +18,7 @@ Parse the [gitlab schema](./schema.graphql). The schema has a size of around `67
 
 - ✅ graphql-go-tools: 5.7179ms
 - ✅ graphql-parser: 7.4608ms
+- ✅ gqlparser: 7.7642ms
 - ✅ async-graphql-parser: 12.7027ms
 - ✅ graphqljs (warmed): 11.1135ms
 - ✅ graphqljs (cold): 39.505ms
@@ -35,9 +36,10 @@ Parse the [kitchen-sink document](./kitchen-sink.graphql). The document has a si
 ./bench.sh ./../kitchen-sink.graphql query
 ```
 - ✅ graphql-parser: 20.9µs
-- ✅ graphql-go-tools: 55.1µs
+- ✅ gqlparser: 38.8µs
+- ✅ graphql-go-tools: 42.6µs
 - ✅ graphqljs (warmed): 0.2104ms
-- ✅ graphqljs (cold): 1.5101ms
+- ✅ graphqljs (cold): 1.4962ms
 - ❌ async-graphql-parser: [Error](https://github.com/async-graphql/async-graphql/issues/602)
 - ❌ go-graphql: [Error](https://github.com/graphql-go/graphql/issues/612)
 

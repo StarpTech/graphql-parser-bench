@@ -8,5 +8,5 @@ fn main() {
     let start = Instant::now();
     let _ast = graphql_parser::parse_schema::<String>(&contents);
     let duration = start.elapsed();
-    println!("graphql-parser: {:?}", duration);
+    println!("{:?}", duration);
 }

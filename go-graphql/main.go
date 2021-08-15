@@ -25,5 +25,5 @@ func main() {
 		log.Fatal(err)
 	}
 	elapsed := time.Since(start)
-	fmt.Printf("go-graphql: %s\n", elapsed)
+	fmt.Printf("%s\n", elapsed)
 }

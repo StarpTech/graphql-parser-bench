@@ -12,5 +12,5 @@ fn main() {
         async_graphql_parser::parse_query(contents).unwrap();
     }
     let duration = start.elapsed();
-    println!("async-graphql-parser: {:?}", duration);
+    println!("{:?}", duration);
 }

@@ -1,5 +1,5 @@
 [package]
-name = "rust-async-graphql-parser"
+name = "async-graphql-parser"
 version = "0.1.0"
 authors = ["starptech <deusdustin@gmail.com>"]
 edition = "2018"

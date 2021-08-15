@@ -38,8 +38,8 @@ Parse the [kitchen-sink document](./kitchen-sink.graphql). The document has a si
 - ✅ graphql-go-tools: 55.1µs
 - ✅ graphqljs (warmed): 0.2104ms
 - ✅ graphqljs (cold): 1.5101ms
-- ❌ async-graphql-parser: `MultipleOperations { anonymous: Pos(56:1), operation: Pos(6:1) }`
-- ❌ go-graphql: `Syntax Error GraphQL (57:49) Unexpected Name "null"`
+- ❌ async-graphql-parser: [Error](https://github.com/async-graphql/async-graphql/issues/602)
+- ❌ go-graphql: [Error](https://github.com/graphql-go/graphql/issues/612)
 
 **🏆 Winner**: In terms of speed `graphql-parser` wins! Alarming that some popular parser can not even parse the query.
 

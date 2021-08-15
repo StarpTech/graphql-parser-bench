@@ -45,6 +45,6 @@ Parse the [kitchen-sink document](./kitchen-sink.graphql). The document has a si
 
 **🏆 Winner**: In terms of speed `graphql-parser` wins! Alarming that some popular parser can not even parse the query.
 
-## Contribution
+## Contribute
 
 Feel free to improve or add another parser to the list. PR's are welcome!

@@ -4,13 +4,15 @@ import (
 	"fmt"
 	"io/ioutil"
 	"log"
+	"os"
 	"time"
 
 	"github.com/jensneuse/graphql-go-tools/pkg/astparser"
 )
 
 func main() {
-	content, _ := ioutil.ReadFile("./../schema.graphql")
+	argsWithoutProg := os.Args[1:]
+	content, _ := ioutil.ReadFile(argsWithoutProg[0])
 	start := time.Now()
 	_, defReport := astparser.ParseGraphqlDocumentBytes(content)
 	if defReport.HasErrors() {

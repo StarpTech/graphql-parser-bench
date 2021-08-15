@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"log"
+	"os"
 	"time"
 
 	"github.com/graphql-go/graphql/language/parser"
@@ -11,7 +12,8 @@ import (
 )
 
 func main() {
-	content, _ := ioutil.ReadFile("./../schema.graphql")
+	argsWithoutProg := os.Args[1:]
+	content, _ := ioutil.ReadFile(argsWithoutProg[0])
 	start := time.Now()
 	_, err := parser.Parse(parser.ParseParams{
 		Source: &source.Source{

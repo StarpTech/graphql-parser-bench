@@ -1,6 +1,6 @@
 # graphql-parser-bench
 
-Parsing a schema or document can be a critical part of the application, especially if you have to care about latency. This is the case for proxies or caches where high load is expected. This benchmark should outline good candidates. 
+Parsing a schema or document can be a critical part of the application, especially if you have to care about latency. This is the case for proxies or caches where high load is expected. This benchmark should outline good candidates. We use the libraries as documented in tests or documentation. We don't tune a specific parser. We assume that a new query arrives the parser at any time.
 
 ## Benchmark
 

@@ -21,4 +21,4 @@ const start = performance.now()
 parse(schema)
 
 const end = performance.now()
-console.info(`graphqljs (warmed): ${end - start}ms`, )
+console.info(`graphqljs (warmed): ${end - start}ms`)
